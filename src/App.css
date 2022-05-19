@@ -24,9 +24,179 @@
   color: white;
 }
 
+header {
+  
+  display: flex;
+  flex-wrap: wrap;
+  font-size: calc(10px + 2vmin);
+  background-color: #024e75;
+  color: white;
+  
+}
+
+.hero {
+  background-image: url('./assets/images/example_photo.avif');
+  background-size: cover;
+  background-position: center;
+  height: 700px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.hero h1 {
+  margin-top: 300px;
+  font-size: 90px;
+  position: left;
+}
+
+header nav {
+  margin: 7px 0;
+  
+}
+
+header nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+}
+
+.site-links {
+  text-decoration: none;
+  color: #024e75;
+}
+
+.site-links:hover {
+  color: green;
+}
+
+header nav ul li {
+  padding-left: 25px;
+}
+
+header a {
+  color: white;
+  text-decoration: none;
+}
+
+header a:hover {
+  color: lightgreen;
+}
+
+.nav-button {
+  border: none;
+  background-color: #024e75;
+  color: white;
+}
+
+.nav-button:hover {
+  color: lightgreen;
+}
+
 .App-link {
   color: #61dafb;
 }
+
+.welcome {
+  height: 700px;
+  width: 100%;
+}
+
+.card {
+  margin: 15px;
+}
+
+.about {
+  display: flex;
+  align-items: center;
+  width: 60%;
+  height: 90%;
+  font-size: 20px;
+ 
+}
+
+#about-right {
+  
+  margin-left: 15%;
+}
+
+
+.picture {
+ 
+  width: 500px;
+  height: 300px;
+  margin: 20px;
+}
+
+.text-right {
+  text-align: center;
+  align-items: center;
+  color: black;
+  padding-top: 20%;
+  font-size: 20px;
+  
+}
+
+.titles {
+  text-align: center;
+  color: #024e75;
+  font-size: 55px;
+  border-bottom: solid 5px;
+  border-radius: 15px; 
+}
+
+#portfolio-title {
+  margin-bottom: 55px;
+}
+
+.card-titles {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.resume {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: solid 3px;
+}
+
+footer {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #024e75;
+  height: 125px;
+  color: white;
+
+}
+
+footer h1 {
+  margin-left: 30px;
+}
+
+footer h2 {
+  padding-left: 30px;
+}
+
+footer a {
+  text-decoration: none;
+  color: white;
+  padding: 30px;
+  font-size: 25px;
+
+}
+
+footer h2:hover {
+  color: lightgreen;
+}
+
+
+
+
 
 @keyframes App-logo-spin {
   from {

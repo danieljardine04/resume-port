@@ -1,19 +1,22 @@
 import React, { useState } from 'react';
 import './App.css';
-import About from './components/About';
+
 import Body from './components/Body/index'
-import Contact from './components/Contact';
+import Resume from './components/Resume';
 import Nav from './components/Nav';
 import Portfolio from './components/Portfolio';
+import Welcome from './components/Welcome'
+import Footer from './components/Footer'
+
 
 
 function App() {
 
   const [categories] = useState([
     {
-      name: 'About me',
+      name: 'Welcome',
       description: "I am a husband to a beautiful Brazilian wife. We have happily married for 3 years. I have 9 brothers and sisters so I am a part of a big family. I also have a dog and cat. I really like to eat good food, go on walks with my Wife and my dog, and go to the movies. I also really like to play video games, which also peaked my interest in programming and web design. ",
-      code: About
+      code: Welcome
     },
 
     {
@@ -23,9 +26,9 @@ function App() {
     },
 
     {
-      name: 'Contact me',
+      name: 'Resume',
       description: 'a place where you are able to contact me',
-      code: Contact
+      code: Resume
     }
   
   ]);
@@ -43,6 +46,7 @@ function App() {
       <main>
         <Body currentCategory={currentCategory}></Body>
       </main>
+      <Footer></Footer>
     </div>
   );
 }

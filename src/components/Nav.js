@@ -17,22 +17,29 @@ function Nav(props){
         </a>
       </h1>
       <nav>
-        <ul className="flex-row">
+        <ul className="flex-row px-1">
           {categories.map((category) => (
             <li
               className={`mx-1 ${ currentCategory.name === category.name && 'navActive'}`}
               key={category.name}
             >
+              <button className="nav-button">
               <span
                 onClick={() => {
                   setCurrentCategory(category)
                 }}
                 >{category.name}
               </span>
+                </button>
             </li>
           ))}
+          <li>
+            <button className="nav-button">
+            <a href="#contact">Contact</a>  
+            </button>
           
-          {/* <li>Resume</li> */}
+          </li>
+          
         </ul>
       </nav>
     </header>
