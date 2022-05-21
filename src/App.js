@@ -15,7 +15,7 @@ function App() {
   const [categories] = useState([
     {
       name: 'Welcome',
-      description: "I am a husband to a beautiful Brazilian wife. We have happily married for 3 years. I have 9 brothers and sisters so I am a part of a big family. I also have a dog and cat. I really like to eat good food, go on walks with my Wife and my dog, and go to the movies. I also really like to play video games, which also peaked my interest in programming and web design. ",
+      description: "I'm a husband to a beautiful Brazilian wife. We have happily married for 3 years. I have 9 brothers and sisters so I am a part of a big family. I also have a dog and cat. I really like to eat good food, go on walks with my Wife and my dog, and go to the movies. I also really like to play video games, which also peaked my interest in programming and web design. ",
       code: Welcome
     },
 
