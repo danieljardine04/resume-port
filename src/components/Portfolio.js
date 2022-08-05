@@ -15,7 +15,7 @@ const Portfolio = () => {
       <Container >
       <div className="card">
 
-        <a href="https://amhum.github.io/typingTest/" target="_blank" className="site-links">
+        <a href="https://danieljardine04.github.io/daniel-typing-test/" target="_blank" className="site-links">
         <Row >
         <h2 className="card-titles">Typing Speed Test</h2>
         <Col sm={6} >
