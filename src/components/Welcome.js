@@ -26,7 +26,7 @@ const Welcome = () => {
           <p className="about" id="about-left">
             I am a fullstack web developer. My interest in coding started when I was younger playing video games. I always
             wondered how they were made. In 2019 I started coding with Java 8, from the OCA study guide working on backend
-            applications. In 2021 to 2022, I did a coding Bootcamp from Utah University.   
+            applications. In 2021 to 2022, I did a coding Bootcamp at Utah University.   
 
           </p>
       
